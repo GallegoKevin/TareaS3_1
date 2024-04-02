@@ -4,12 +4,18 @@
 
 2. Comentarios: son fragmentos  que no se muestran en la  página web, pero permiten agregar notas y explicaciones.
 
-3. Tipos de Etiquetas
-   3.1 De Apertura: Marcan el inicio de un elemento
-   3.2 De Cierre: Señalan el final de un elemento
+3. Tipos de Etiquetas:
+
+   3.1 De Apertuara y cierre: Son etiquetas que marcan el inicio y final de un elemento.
+
    3.2 Self Closing: Etiquetas auto-cerradas (también conocidas como etiquetas vacías) son elementos que no requieren una etiqueta de cierre separada.
+   <br>: Se utiliza para insertar un salto de línea o un quiebre de línea
+   <img>: Se utiliza para mostrar imágenes en la página web.
+   <hr>: Se utiliza para insertar una línea horizontal.
+   <input>: Se utiliza para crear campos de entrada en formularios.
 
    3.3 Bloque: Son etiquetas que ocupan  todo el ancho disponible en la página, separando a los elementos que las contienen.
+
    3.4 Inline: Son  elementos que se alinean en la misma línea.
 
 4. Atributos
@@ -22,6 +28,8 @@
 1. Encabezados: define el título o subtítulo de una sección, importante para la estructura
 2. Parrafos: es un elemento de texto que se utiliza para agrupar contenido textual 
 3. Enlaces: es un elemento que permite a los usuarios navegar entre diferentes recursos web, como otras páginas
+
+
 
 [HTML5 ETIQUETAS]
 

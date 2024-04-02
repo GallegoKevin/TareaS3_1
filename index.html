@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de HTML</title>
+</head>
+<body>
+
+        <header>
+            <h1>FUNDAMENTOS DE HTML</h1>
+        </header>
+        <hr>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="">HTML ETIQUETAS</a>
+                    </li>
+                    <li>
+                        <a href="">HTML 5 ETIQUETAS</a>
+                    </li>
+                 </ul>
+                </nav>
+        <hr>
+
+    <section> 
+        <!--concepto de Estructura  básica de HTMl-->
+        <article>
+            <h2>1. Estructura básica DE HTML</h2>
+            <p> <code>&lt;!DOCTYPE html&gt;</code>: Es una especificación del lenguaje y versión del documento HTML</p>
+            <p> <code>&lt;html lang="es"&gt; &lt;/html&gt;</code>: Indica el comienzo y el final de un documento HTML</p>
+            <p> <code>&lt;head&gt; &lt;/head&gt;</code>: Es un elemento que se utiliza para contener metadatos y enlaces a recursos externos que no son parte del contenido visible de la página web. Los elementos comunes que se encuentra dentro son: <code> <code>&lt;title&gt; &lt;/title&gt; </code></code> </p>
+            <p></p>
+            <p> <code>&lt;body&gt; &lt;/body&gt;</code>: Corresponde al contenido de la pagina web el cual sera visible por los visitantes </p>
+        
+            <p>
+            Ejemplo de Estructura básica: </br>
+            <code>&lt;!DOCTYPE html&gt;</code></br>
+            <code>&lt;html&gt;</code></br>
+            <code>&lt;head&gt;</code></br>
+            <code>&lt;/head&gt;</code></br>
+            <code>&lt;body&gt;</code></br>
+            <code>&lt;/body&gt;</code></br>
+            <code>&lt;/html&gt;</code>
+            </p>
+        </article>
+        <hr>
+        <!--Concepto de comentarios-->
+        <article>
+            <h2>2. Comentarios</h2>
+            <p>Son fragmentos  que no se muestran en la  página web, pero permiten agregar notas y explicaciones.</p>
+            <p>Ejemplo de comentario:</p>
+            <p><code>&lt;!--Concepto breve de comentario en HTML5--&gt;</code></p>
+        </article>
+        <hr>
+        <!--Concepto de los Tipos de Etiquetas-->
+        <article>
+            <h2>3. Tipos de Etiquetas</h2>
+            <div>
+            <h3>3.1 Etiquetas de Apertura y Cierre</h3>
+            <P>Son etiquetas que marcan el inicio y final de un elemento</P>
+            <p>Ejemplo:</p>
+            <p>Codigo html:</p>
+            <p><code>&lt;u&gt;Este es un texto subrayado&lt;/u&gt;</code></p>
+            <p>Vista en Navegador:</p>
+            <u>"Este es un texto subrayado"</u>
+
+            <p>Codigo html:</p>
+            <code>&lt;i&gt;Estos es una cursiva&lt;/i&gt;</code>
+            <p>Vista en Navegador:</p>
+            <i>"Esto es una cursiva"</i>
+            </div>
+    
+            <div>
+            <h3>3.2 Etiqueta Self Closing</h3>
+            <P>Etiquetas auto-cerradas (también conocidas como etiquetas vacías) son elementos que no requieren una etiqueta de cierre separada</P>
+            <p>Tales como:</p>
+            <p><code>&lt;br&gt;</code>: Se utiliza para insertar un salto de línea o un quiebre de línea. </p>
+            <p><code>&lt;img src="ruta/de/la/imagen.jpg" alt="Descripción de la imagen"&gt;</code>: Se usa para mostrar imagenes en la pagina web</p>
+           
+            <p>Ejemplo del codigo "br" :</p>
+            <p>Codigo html:</p>
+            <code>&lt;p&gt;Este es un texto con <code>&lt;br&gt;</code> un salto de línea&lt;/p&gt;</code>
+            <p>Vista en Navegador:</p>
+            <p>Este es un texto con <br> un salto de línea.</p>
+
+            <p>Ejemplo del codigo "img" :</p>
+            <p>Codigo html:</p>
+            <p><code>&lt;p&gt;img src="https://miro.medium.com/v2/resize:fit:200/1*lXrmBn-3TzhkSgXatEU7iA.png" alt="self closing html"&gt;</code></p>
+            <p>Vista en Navegador:</p>
+            <img src="https://miro.medium.com/v2/resize:fit:200/1*lXrmBn-3TzhkSgXatEU7iA.png" alt="self closing html">
+            </div>
+
+            <div>
+            <h3>3.3 Etiqueta bloque</h3>
+            <P>Son etiquetas que ocupan todo el ancho disponible en la página, separando a los elementos que las contienen.</P>
+            <P>Tales como: <code>&lt;h1&gt;</code>; <code>&lt;table&gt;</code>; <code>&lt;ul&gt;</code>; <code>&lt;ol&gt;</code>
+            
+            <p>Ejemplo de vista en navegador:</p>
+            <p><code>&lt;h4&gt;</code>:</p>
+            <h4>Encabezado Nivel 4</h4>
+            <p><code>&lt;ul&gt;</code> & <code>&lt;ol&gt;</code>: </p>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+            </ul>
+            
+            <ol>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+            </ol>
+
+            </div>
+
+            <div>
+            <h3>3.4 Etiqueta Inline</h3>
+            <P>Son elementos que se alinean en la misma línea. </P>
+            <p>Tales como: <code>&lt;span&gt;</code>, <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>, etc</p>
+
+            <p>Ejemplo de vista en navegador:</p>
+            <p><code>&lt;span&gt;</code>:</p>
+            <p>Este es un texto con un <span style="color: red;">texto en rojo</span> dentro.</p>
+            <p><code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>:</p>
+            <p><strong>Texto en negrita</strong> y <em>texto en cursiva</em>.</p>    
+            </div>
+        </article>
+        <hr>
+        <article>
+            <h2>4. Atributos</h2>
+
+            <div>
+                <h3>4.1 Obligatorios</h3>
+                <p>Son aquellos que siempre deben tener un valor en una etiqueta HTML</p>
+                
+                <p><code>&lt;input&gt;</code>; El atributo <strong>"type"</strong> es obligatorio en la mayoría de los casos para especificar el tipo de campo de entrada. </p>
+                <p>Ejemplo: </p>
+                
+                <p> codigo: </p>
+                <p> <code>&lt;input type="text" placeholder="Nombre"&gt;</code> </p>
+                <p>Vista en Navegador:</p>
+                <input type="text" placeholder="Nombre">
+
+                <p><code>&lt;img&gt;</code>; El atributo <strong>"src"</strong> es obligatorio para especificar la ruta de la imagen que se mostrará.</p>
+                <p>Ejemplo:</p>
+                <p><code>&lt;img src="ruta/de/la/imagen.jpg" alt="Descripción de la imagen"&gt;</code></p>
+            </div>
+
+            <div>
+                <h3>4.2 Opcionales</h3>
+                <p>Estos atributos modifican la funcionalidad por defecto de la etiqueta HTML</p>
+                <p><code>&lt;a&gt;</code>; El atributo <strong>target</strong>; es opcional y sirve para controlar cómo se abre el enlace (en la misma ventana, en una nueva pestaña,etc.)</p>
+                <p><code>&lt;a href="#" target="_blank">Abrir enlace en nueva pestaña<&gt;</code></p>
+            </div>
+        </article>
+    </section>
+    <hr>
+    <footer>
+        <p>Derechos Reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>
