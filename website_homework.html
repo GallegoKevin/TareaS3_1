@@ -1,40 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modelo de página web</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a Diseño Web con HTML5</title>
+    <link rel="icon" href="icono_html5.png" type="image/png">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/R.5d6cd40c005b34535bc97755c8e54d24?rik=Mzx6XZR99i8n5Q&pid=ImgRaw&r=0">
 </head>
 <body>
-  <header>
-    <h1>MY WEBSITE</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#">INICIO</a></li>
-      <li><a href="#">QUIENES SOMOS</a></li>
-      <li><a href="#">PRODUCTOS</a></li>
-      <li><a href="#">CONTACTOS</a></li>
-    </ul>
-  </nav>
-  
-  <section>
+    <header>
+        <h1>Encabezado Principal</h1>
+    </header>
+    <hr />
+    <nav>
+        <ul>
+            <li><a href="#">Concepto HTML</a></li>
+            <li><a href="#">Etiquetas HTML</a></li>
+            <li><a href="#">Ejemplos de Uso</a></li>
+            <li><a href="./index.html"><img src="https://th.bing.com/th/id/OIP.NfJOjruN2micfeT1mICuZQHaFh?rs=1&pid=ImgDetMain" alt="regresar index" width="40px"></a></li>
+        </ul>
+    </nav>
+    <hr/>
+    <main>
+        <section>
+            <h2>Concepto de HTML</h2>
+            <p>HTML (HyperText Markup Language) es el lenguaje de marcado estándar para la creación de páginas web. Permite estructurar y presentar contenido en la web utilizando etiquetas predefinidas.</p>
+        </section>
 
-    <h2>Contenido principal</h2>
+        <section>
+            <h2>Etiquetas HTML</h2>
+            <p>HTML utiliza diversas etiquetas para definir la estructura y contenido de una página web. Algunas de las más comunes son:</p>
+            <ul>
+                <li>&lt;header&gt;: Define el encabezado de la página.</li>
+                <li>&lt;nav&gt;: Define la barra de navegación.</li>
+                <li>&lt;ul&gt;: Define una lista desordenada.</li>
+                <li>&lt;li&gt;: Define un elemento de lista.</li>
+                <li>&lt;a&gt;: Define un enlace.</li>
+                <li>&lt;img src="ruta_imagen.jpg" alt="Texto alternativo"&gt;: Inserta una imagen con texto alternativo.</li>
+                <li>&lt;hr&gt;: Inserta una línea horizontal.</li>
+                <li>&lt;br&gt;: Inserta un salto de línea.</li>
+                <li>&lt;h1&gt;: Define un encabezado de nivel 1.</li>
+                <li>&lt;h2&gt;: Define un encabezado de nivel 2.</li>
+                <li>&lt;h3&gt;: Define un encabezado de nivel 3.</li>
+                <li>&lt;p&gt;: Define un párrafo de texto.</li>
+                <li>&lt;aside&gt;: Define contenido relacionado pero secundario.</li>
+                <li>&lt;footer&gt;: Define el pie de página.</li>
+                <li>&lt;strong&gt;: Resalta un texto como importante.</li>
+                <li>&lt;button type="button"&gt;: Define un botón interactivo.</li>
+                <li>&lt;main&gt;: Define el contenido principal.</li>
+                <li>&lt;section&gt;: Define una sección de contenido.</li>
+                <li>&lt;article&gt;: Define un artículo independiente.</li>
+            </ul>
+        </section>
 
-    <article>
-      <h3>Artículo principal</h3>
-      <p>Aquí va el contenido principal del artículo. Puedes incluir párrafos, imágenes, listas, etc.</p>
-    </article>
+        <section>
+            <h2>Ejemplos de Uso</h2>
+            <p>A continuación, se muestran ejemplos de cómo usar algunas etiquetas HTML:</p>
+            <h3>Ejemplo de Botón</h3>
+            <p>Puedes crear un botón interactivo utilizando la etiqueta &lt;button&gt;. Por ejemplo:</p>
+            <pre>&lt;button type="button"&gt;Click Aquí&lt;/button&gt;</pre>
+            <h3>Ejemplo de Texto Importante</h3>
+            <p>Para resaltar un texto como importante, utiliza la etiqueta &lt;strong&gt;. Por ejemplo:</p>
+            <pre>&lt;strong&gt;Este es un texto importante.&lt;/strong&gt;</pre>
+        </section>
+    </main>
 
-  </section>
-  <aside>
-    <h3>Barra lateral</h3>
-    <p>Aquí va contenido adicional, como anuncios o información de contacto.</p>
-  </aside>
-  <footer>
-    <p>Copyright &copy; 2023</p>
-  </footer>
+    <aside>
+        <h3>Artículos Relacionados</h3>
+        <ul>
+            <li><a href="#">Introducción a CSS</a></li>
+            <li><a href="#">JavaScript Básico</a></li>
+        </ul>
+    </aside>
+    <hr />
+    <footer>
+        <a href="https://es-la.facebook.com/"  target="_blank">
+          <img src="https://th.bing.com/th/id/OIP.tgX1IzrA4eCEiPnZFyo3sgHaHa?rs=1&pid=ImgDetMain" alt="facebook" width="25px">
+        </a> 
+        <a href="https://twitter.com/" target="_blank">
+          <img src="https://img.freepik.com/vetores-premium/novo-logotipo-do-twitter-x-2023-download-do-vetor-oficial-do-logotipo-do-twitter-x_691560-10797.jpg?w=2000" alt="facebook" width="25px">
+        </a>         
+        
+        <br />
+        <button>Contacto</button>
+        <p> Derechos Reservados_Kevin &copy; 2024 </p>
+    </footer>
 </body>
 </html>
