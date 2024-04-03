@@ -55,7 +55,7 @@
 3. **Enlaces**: Es un elemento que permite a los usuarios navegar entre diferentes recursos web, archivos, imagenes, audios y video. Los representa la etiqueta: &lt;a&gt; y el atributo href que indica la url de destino.
 
 
-####[HTML5 ETIQUETAS]####
+####[**HTML5 ETIQUETAS**]####
 
 1. **HEADER** : Contenido introductorio de su ancestro mas cercano
 2. **NAV** : Barra de navegación donde se encuentran los enlaces  a otros documentos.Es usada para agrupar los enlaces y facilitar la navegación entre ellos.   
