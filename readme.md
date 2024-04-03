@@ -11,14 +11,14 @@
 
    3.1 De Apertuara y cierre: 
        Son etiquetas que marcan el inicio y final de un elemento.
-       <p></p> , <a></a> , etc.
+       &lt;p&gt;¡Hola, mundo!&lt;/p&gt; , <a></a> , etc.
       <pre></pre> : se utiliza para definir texto preformateado, lo que significa que el navegador mostrará exactamen.te el texto tal como está escrito en el código fuente.
       <button></button>: se utiliza para crear un botón interactivo en una página web.
 
    3.2 Self Closing: 
       Etiquetas auto-cerradas (también conocidas como etiquetas vacías) son elementos que no requieren una etiqueta de cierre separada.
 
-      </br>: Se utiliza para insertar un salto de línea o un quiebre de línea
+      <br>: Se utiliza para insertar un salto de línea o un quiebre de línea
       </img>: Se utiliza para mostrar imágenes en la página web.
       </hr>: Se utiliza para insertar una línea horizontal.
    
@@ -52,7 +52,6 @@
 2. Parrafos: Es un elemento utilizado para estructurar y presentar texto en forma de bloques coherentes dentro de una página web. Lo representa la etiqueta <p>.
 
 3. Enlaces: Es un elemento que permite a los usuarios navegar entre diferentes recursos web, archivos, imagenes, audios y video. Los representa la etiqueta: <a> y el atributo href que indica la url de destino.
-
 
 
 [HTML5 ETIQUETAS]
