@@ -12,15 +12,17 @@
    3.1 De Apertuara y cierre: 
        Son etiquetas que marcan el inicio y final de un elemento. 
        
-       &lt;pre&gt;&lt;/pre&gt; : se utiliza para definir texto preformateado, lo que significa que el navegador mostrará exactamen.te el texto tal como está escrito en el código fuente.<br>
-       &lt;button&gt;&lt;/button&gt;: se utiliza para crear un botón interactivo en una página web.
+      &lt;pre&gt;&lt;/pre&gt;: se utiliza para definir texto preformateado, lo que significa que el navegador mostrará exactamen.te el texto tal como está escrito en el código fuente.
+
+      &lt;button&gt;&lt;/button&gt;: se utiliza para crear un botón interactivo en una página web.
+
 
    3.2 Self Closing: 
       Etiquetas auto-cerradas (también conocidas como etiquetas vacías) son elementos que no requieren una etiqueta de cierre separada.
 
-      a) &lt;br /&gt;: Se utiliza para insertar un salto de línea o un quiebre de línea
-      b) &lt;img /&gt;: Se utiliza para mostrar imágenes en la página web.
-      c) &lt;hr /&gt;: Se utiliza para insertar una línea horizontal.
+      &lt;br /&gt;: Se utiliza para insertar un salto de línea o un quiebre de línea. <br>
+      &lt;img /&gt;: Se utiliza para mostrar imágenes en la página web.
+      &lt;hr /&gt;: Se utiliza para insertar una línea horizontal.
    
 
    3.3 Bloque: Son etiquetas que ocupan  todo el ancho disponible en la página, separando a los elementos que las contienen.
