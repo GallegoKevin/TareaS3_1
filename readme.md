@@ -10,10 +10,10 @@
 3. Tipos de Etiquetas:
 
    3.1 De Apertuara y cierre: 
-       Son etiquetas que marcan el inicio y final de un elemento. Tales como: 
+       Son etiquetas que marcan el inicio y final de un elemento. 
        
-       a. &lt;pre&gt;&lt;/pre&gt; : se utiliza para definir texto preformateado, lo que significa que el navegador mostrará exactamen.te el texto tal como está escrito en el código fuente.
-       b. &lt;button&gt;&lt;/button&gt;: se utiliza para crear un botón interactivo en una página web.
+       &lt;pre&gt;&lt;/pre&gt; : se utiliza para definir texto preformateado, lo que significa que el navegador mostrará exactamen.te el texto tal como está escrito en el código fuente.<br>
+       &lt;button&gt;&lt;/button&gt;: se utiliza para crear un botón interactivo en una página web.
 
    3.2 Self Closing: 
       Etiquetas auto-cerradas (también conocidas como etiquetas vacías) son elementos que no requieren una etiqueta de cierre separada.
